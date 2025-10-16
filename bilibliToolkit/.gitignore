@@ -1,0 +1,50 @@
+# 环境变量文件（包含敏感信息）
+.env
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 类型检查
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 临时输出文件
+bilibiliCacheListTmp.md
+bilibiliCacheListFin.md
+
+# 操作系统
+.DS_Store
+Thumbs.db
