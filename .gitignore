@@ -1,0 +1,103 @@
+# ================================
+# 环境变量和敏感配置
+# ================================
+.env
+*.env
+!.env.example
+
+# ================================
+# Python 相关
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# 虚拟环境
+# ================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+.uv/
+
+# ================================
+# IDE 和编辑器
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# 类型检查
+# ================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ================================
+# 测试和覆盖率
+# ================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+.hypothesis/
+
+# ================================
+# 项目特定文件
+# ================================
+# Bilibili 工具包临时文件
+bilibiliCacheListTmp.md
+bilibiliCacheListFin.md
+bilibili_cache_list_tmp.md
+bilibili_cache_list_fin.md
+
+# 下载目录
+downloads/
+
+# ================================
+# 日志文件
+# ================================
+*.log
+logs/
+
+# ================================
+# 操作系统
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# 包管理器
+# ================================
+# UV
+.python-version
+uv.lock

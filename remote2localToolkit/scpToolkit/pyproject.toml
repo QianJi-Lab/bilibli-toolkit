@@ -1,0 +1,20 @@
+[project]
+name = "scp-transfer"
+version = "1.0.0"
+description = "SCP file transfer tool with interactive CLI"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+authors = [
+    { name = "Hongjun Li" }
+]
+
+[project.scripts]
+scp-transfer = "scp_transfer:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
