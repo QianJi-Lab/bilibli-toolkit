@@ -1,10 +1,10 @@
-## 致谢🙏
+## 前言
 
-在此感谢所有开源自己工作的开发者前辈们, 没有大家提供的 API , 开源工具库以及各种思路, 我无法完成工具开发🫡
+在此感谢所有开源自己工作的开发者前辈们, 没有大家提供的 API , 开源工具库以及各种思路, 我无法完成工具开发，致谢🫡
 
-## 📦 工具列表(持续增加新工具ing, 欢迎大家提 PR 一起丰富工具库!🫡)
+持续增加新工具ing, 欢迎大家提 PR 一起丰富工具库!
 
-### 1. 📺 Bilibili 工具包 ([bilibliToolkit](./bilibliToolkit/))
+## 📦 📺 Bilibili 工具包 
 
 [Bilibili 工具包使用指南](./bilibliToolkit/README.md)
 
@@ -18,20 +18,6 @@
 3. 🎬 **b站缓存格式2MP4转换**: 将 B站缓存(.m4s)转换为标准 MP4 格式  
 
 4. 📥 **"稍后再看"批量自动下载(MP4格式)**: 一键下载"稍后再看"列表中的所有视频, 结果为 MP4 格式
-
----  
-
-### 2. 🔄 远程传输工具包 ([remote2localToolkit](./remote2localToolkit/))
-
-#### SCP 文件传输工具 ([scpToolkit](./remote2localToolkit/scpToolkit/))
-
-[SCP 传输工具使用指南](./remote2localToolkit/scpToolkit/README.md)
-
-**核心功能**：
-- 📦 封装常用 scp 命令（下载/上传）
-- 🔢 最简交互 - 纯数字选项
-- 📊 实时传输进度
-- 🖥️ 跨平台支持（Windows/macOS/Linux）
 
 ## 📄 许可证
 
